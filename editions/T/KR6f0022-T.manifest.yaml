@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6f0022/T/v1
+canonical_location: https://kanripo.org/bkk/KR6f0022/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說菩薩修行經
+  identifiers:
+    krp: KR6f0022
+    cbeta: T12n0330
+    cbeta_old_id: T12n0330
+    authorityid: CA0002464
+    json_key: T0330
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T12/T12n0330.xml
+    old_id: T12n0330
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6f0022_000-T.yaml, hash: 'sha256:bbf2205ac8f5f55db56bc1758081e896439e185e578e2a42e3532d998a5bbf42'}
+  - {seq: 1, filename: KR6f0022_001-T.yaml, hash: 'sha256:71676a08c35f53b9a2076ffbde637c604b40ce93815949243c73fa1bb67ce313'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6f0022_000-T.markers.yaml, hash: 'sha256:340962a8128d0d1ea121adaa0868eda484db8cdcb684b7bc5bcddd1f99707f05'}
+  - {seq: 1, role: markers, filename: assets/KR6f0022_001-T.markers.yaml, hash: 'sha256:06d913975a04dec0177e0630c5fb7418a3876f88787129c985854be0811a4c43'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6f0022_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2868
+  label: 佛說菩薩修行經亦名威施長者問觀身行經
+  type: juan
+  level: 1
+hash: sha256:b98c1b5b63c98359b12c1bbe04dfd169b1e5743cca21dad2bfb8adb3c8228956

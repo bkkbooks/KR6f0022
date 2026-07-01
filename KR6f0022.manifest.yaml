@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6f0022/v1
+canonical_location: https://kanripo.org/bkk/KR6f0022/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說菩薩修行經
+  identifiers:
+    alt_id:
+    - T12n0330
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T12/T12n0330.xml
+    old_id: T12n0330
+  edition:
+    short: bkk
+editions:
+- short: 宮
+  label: 宮
+  source_xml_id: wit3
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6f0022_000.yaml, hash: 'sha256:bbf2205ac8f5f55db56bc1758081e896439e185e578e2a42e3532d998a5bbf42'}
+  - {seq: 1, filename: KR6f0022_001.yaml, hash: 'sha256:46bede005630e4a6d1150625f0a533c73142b778cb87dd134904957e0cbf9702'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6f0022_001.markers.yaml, hash: 'sha256:7bf62927fe501be32367662b14e004424cb5557dfa1bcc374132149eef225824'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6f0022_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2868
+  label: 佛說菩薩修行經亦名威施長者問觀身行經
+  type: juan
+  level: 1
+hash: sha256:ba35d24fb5e821eebe3dbb0d66574991e7b8ed6011c1a667795ffdb32da966b8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
