@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6f0022_000.yaml, hash: 'sha256:bbf2205ac8f5f55db56bc1758081e896439e185e578e2a42e3532d998a5bbf42'}
-  - {seq: 1, filename: KR6f0022_001.yaml, hash: 'sha256:46bede005630e4a6d1150625f0a533c73142b778cb87dd134904957e0cbf9702'}
+  - {seq: 1, filename: KR6f0022_001.yaml, hash: 'sha256:71676a08c35f53b9a2076ffbde637c604b40ce93815949243c73fa1bb67ce313'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6f0022_001.markers.yaml, hash: 'sha256:7bf62927fe501be32367662b14e004424cb5557dfa1bcc374132149eef225824'}
+  - {seq: 0, role: markers, filename: assets/KR6f0022_000.markers.yaml, hash: 'sha256:3416b656079e33bec7b500db757dc09fde5e708102e170b5b182ee62b0476ab7'}
+  - {seq: 1, role: markers, filename: assets/KR6f0022_001.markers.yaml, hash: 'sha256:f7114b0fdb667306e63383e353e5cbcd2fc8eebfae927ea071807fa36f9ba720'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說菩薩修行經亦名威施長者問觀身行經
   type: juan
   level: 1
-hash: sha256:ba35d24fb5e821eebe3dbb0d66574991e7b8ed6011c1a667795ffdb32da966b8
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:8f00b55b78d60ac0816e148a8436d7bf4df130bb67f569da787c7a790de3714b
