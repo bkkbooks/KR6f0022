@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6f0022/v1
 canonical_location: https://kanripo.org/bkk/KR6f0022/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說菩薩修行經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6f0022_000.yaml, hash: 'sha256:bbf2205ac8f5f55db56bc1758081e896439e185e578e2a42e3532d998a5bbf42'}
-  - {seq: 1, filename: KR6f0022_001.yaml, hash: 'sha256:71676a08c35f53b9a2076ffbde637c604b40ce93815949243c73fa1bb67ce313'}
+  - {seq: 1, filename: KR6f0022_001.yaml, hash: 'sha256:c8327a3074612d149c1c1cf73912d64fc78d9075d0e23a14c99b447ce293ad9b'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6f0022_000.markers.yaml, hash: 'sha256:3416b656079e33bec7b500db757dc09fde5e708102e170b5b182ee62b0476ab7'}
-  - {seq: 1, role: markers, filename: assets/KR6f0022_001.markers.yaml, hash: 'sha256:f7114b0fdb667306e63383e353e5cbcd2fc8eebfae927ea071807fa36f9ba720'}
+  - {seq: 1, role: markers, filename: assets/KR6f0022_001.markers.yaml, hash: 'sha256:78f7be361c22eb1af0bcf7606368b5f215176ba6efcde270af0efc5b47bc73cd'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 佛說菩薩修行經亦名威施長者問觀身行經
   type: juan
   level: 1
-hash: sha256:8f00b55b78d60ac0816e148a8436d7bf4df130bb67f569da787c7a790de3714b
+hash: sha256:490b4e0078162f06f7bc758aecc2521a32fd0033b4e337eaebec0ebaf248dbc1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
